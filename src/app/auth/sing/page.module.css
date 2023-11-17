@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+
+    height: 100vh;
+
+    display: flex;
+ 
+    justify-content: center !important;
+
+    align-items: center !important;
+}
+
+.container p {
+    color : #0075FF;
+    font-size: 20px;
+    font-weight: 800;
+}

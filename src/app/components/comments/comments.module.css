@@ -1,0 +1,21 @@
+
+.comments {
+    display: flex;
+    gap : 20px;
+    margin-top: 10px;
+    /* width: 60%;
+    margin: 0px auto ; */
+}
+
+.image {
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}

@@ -1,0 +1,21 @@
+
+.container {
+    margin-top: 50px !important;
+    width: 70%;
+    margin: 0px auto ;
+}
+
+.Subcontainer {
+    display: flex;
+    gap: 30px;
+}
+
+.avatar {
+    border-radius: 50%;
+    border : 2px solid gray;
+}
+
+
+.name{
+    transform: translateY(20px);
+}

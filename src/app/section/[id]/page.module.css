@@ -1,0 +1,40 @@
+
+.icon{
+    transform: translateY(10px) !important;
+    font-size: 50px !important;
+}
+
+.container {
+    width: 70% !important;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.content{
+    height: calc(100vh - 200px );
+    padding: 30px;
+    overflow-y: scroll;
+}
+.content::-webkit-scrollbar{
+    display: none;
+}
+.user {
+    display: flex;
+    gap : 50px;
+    background-color: #f6f6f6;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+.user h2{
+    transform: translateY(8px);
+    text-decoration: none !important;
+    color : rgb(44, 43, 43);
+    cursor: pointer !important;
+}
